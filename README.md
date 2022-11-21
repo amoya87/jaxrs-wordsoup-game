@@ -59,7 +59,7 @@ In case of error:
 
 ```GET http://localhost:8080/jaxrsdemo/alphabetSoup/view/{id}``` - return the current state of wordSoup in plain text format:
 
-```json
+```text
 i p b c a n c p q n t b s c l 
 B U F A N D A j a m o r x m o 
 v g j m j q i r p d x d m b b 
@@ -77,7 +77,7 @@ k p g v p v y i e u x i s w r
 k c o b m p i m f u v q q c h
 ```
 
-Note that words already found("cartera","mano","bufanda","ciudad","pomelo","esfera","parlante","hoja","casco") are capitalized.
+Note that words already found("cartera", "mano", "bufanda", "ciudad", "pomelo" "esfera", "parlante", "hoja", "casco") are capitalized.
 
 ```PUT http://localhost:8080/jaxrsdemo/alphabetSoup/{id}``` - return a json with a message indicating if the found word is correct or not and modify the state of the wordsearch.
 
